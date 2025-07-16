@@ -12,6 +12,9 @@ function ContactForm() {
 
     const googleCaptchaKey = import.meta.env.VITE_GOOGLECAPTCHAKEY;
     const emailJsKey = import.meta.env.VITE_MAILJSKEY;
+    const emailJsTemplate = import.meta.env.VITE_EMAILJSTEMPLATE;
+    const emailJsServiceId = import.meta.env.VITE_SERVICEID;
+
     function sendEmail(e){
         e.preventDefault();
 
@@ -22,10 +25,10 @@ function ContactForm() {
 
         emailjs
         .sendForm(
-            'gmail',
-            'template_skwg47s',
+            emailJsServiceId,
+            emailJsTemplate,
             formRef.current,
-            {publicKey: mailJsKey}
+            {publicKey: emailJsKey}
         )
         .then(
             () => {
