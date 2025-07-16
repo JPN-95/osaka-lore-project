@@ -1,0 +1,123 @@
+{
+    "Osaka City": {
+      "name": "Osaka City",
+      "areaData":"Sample Text",
+      "center":[34.68, 135.5023],
+      "zoom": 10,
+      "overlayUrl":"/photos/chuo1924.jpg",
+      "overlayBounds":[
+        [0,0],
+        [0,0]
+      ],
+      "areaCoverImg": "https://blog-imgs-21.fc2.com/a/t/a/atamatote/shiden_10.jpg"
+    }, 
+
+    "Fukushima": {
+      "name": "Fukushima Ward",
+      "areaData":"Sample Text",
+      "center": [34.691585, 135.477888],
+      "zoom": 15,
+      "overlayUrl":"/photos/fukushima1927.jpg",
+      "overlayBounds":[
+        [34.702155, 135.449617],
+        [34.679240, 135.499040]
+      ],
+      "areaCoverImg": "https://www.osaka-soundtrip.com/wp-content/uploads/2021/10/chuokokaido_7.jpg",
+      "markers":[{
+        "name": "Osaka Central Wholesale Market-1931",
+        "markLocation":[34.684285793340464, 135.4777220771387],
+        "popupText": "In the years previous, Japan had seen riots across the nation due to lack of access to rice. Central markets began popping up in all major cities in order to better supply citizens with access to food.",
+        "popupImg":"https://c8.alamy.com/comp/2C07DAB/1930s-japan-central-wholesale-market-a-panoramic-view-of-the-osaka-central-wholesale-market-in-osaka-which-played-a-major-role-in-establishing-a-stable-food-market-in-osaka-and-surroundings-it-was-opened-in-osakas-fukushima-ward-in-november-1931-in-response-to-the-violent-rice-riots-of-1918-the-market-was-closed-during-wwii-but-reopened-in-1950-20th-century-vintage-postcard-2C07DAB.jpg"
+        },
+        {
+        "name": "The Aji River-1914",
+        "markLocation": [34.685046, 135.481670],
+        "popupText": "A vital and artificial river stretching southwest to northeast through the middle of the city, allowing for commerce and trade.",
+        "popupImg": "https://japanknowledge.com/image/updatesample/81306024018303.jpg"
+      }
+      ]
+    },
+
+    "Chuo":{
+      "name": "Chuo Ward",
+      "areaData":"Sample Text",
+      "center": [34.683403, 135.514265],
+      "zoom": 15,
+      "overlayUrl":"/photos/chuo1924.jpg",
+      "overlayBounds":[
+        [34.696564, 135.494775],
+        [34.662503, 135.537759]
+      ],
+      "areaCoverImg": "https://www.osaka-soundtrip.com/wp-content/uploads/2021/10/chuokokaido_7.jpg",
+      "markers": [{
+        "name": "Osaka Castle-1930s",
+        "markLocation": [34.68726911787858, 135.52587781115787],
+        "popupText": "Having been almost entirely mothballed during the Meiji Era, the central government repurposed the castle grounds into a munitions depot",
+        "popupImg": "https://osakacastle.net/90/images/history/img_sec5_1.jpg"
+      },
+      {
+        "name":"Osaka Castle Station-1924",
+        "markLocation":[34.684573, 135.535587],
+        "popupText": "The area of the (now) Osaka Castle Station served as an airstrip and military training ground.",
+        "popupImg": "https://jaa2100.org/assets_c/2015/12/img_567642e3595a42-thumb-autox404-43807.jpg"
+      }
+    ]
+  },
+    "Kita": {
+      "name":"Kita Ward",
+      "areaData":"Sample Text",
+      "center": [34.692942, 135.493410],
+      "zoom": 14,
+      "overlayUrl":"/photos/kitaku1924.jpg",
+      "overlayBounds":[
+        [34.717733, 135.471461],
+        [34.685886, 135.522999]
+      ],
+      "areaCoverImg": "https://www.osaka-soundtrip.com/wp-content/uploads/2021/10/chuokokaido_7.jpg",
+      "markers":[{
+        "name": "Osaka Station-1930s",
+        "markLocation":[34.70236654980355, 135.49567126192545],
+        "popupText": "First built in 1897, this building is the second rendition of the Osaka station. When first built the land in what is Umeda now was almost entirely rice fields.",
+        "popupImg":"https://upload.wikimedia.org/wikipedia/commons/2/23/Osaka_Station_circa_1930.JPG?20090801142944"
+        },
+        {
+        "name": "Nakanoshima",
+        "markLocation":[34.692127404853764, 135.4921716894661],
+        "popupText": "Before the Meiji restoration, Nakanoshima served primarily as a central city marketplace. However the island saw massive renovation and became the symbol of modernity for Osaka with many of the first western buildings being built there.",
+        "popupImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Nakanoshima_1930.jpg/655px-Nakanoshima_1930.jpg"
+        },
+        {
+        "name": "Osaka Bank Building-1920s or 30s",
+        "markLocation":[34.69378060076593, 135.50046073426014],
+        "popupText": "Finished in 1904, the bank was built in a western style, meant to replicate the National Bank of Belgium. The institution and the architecture reflect the massive changes happening around the country at the time.",
+        "popupImg":"https://www.ehagaki.org/wp-content/uploads/2017/03/onc022-Nippon-Bank-Osaka-%E6%97%A5%E6%9C%AC%E9%8A%80%E8%A1%8C%E5%A4%A7%E9%98%AA%E6%94%AF%E5%BA%97.jpg"
+        }
+      ]
+    },
+
+    "Nishi":{
+      "name":"Nishi",
+      "areaData":"During and after the Meiji Restoration, all of Osaka rapidly changed. Nowhere was that change more intense than in Nishi. The influx of large and small trading vessels necessitated the building of larger ports and the expansion of the small rivers leading into the city. Some of the largest land reclamation and heavy industry projects were carried out in Nishi Ward.",
+      "center": [34.677327, 135.484309],
+      "zoom": 15,
+      "overlayUrl":"/photos/nishiku1927.jpg",
+      "overlayBounds":[
+        [34.691780, 135.462294],
+        [34.667425, 135.498784]
+      ],
+      "areaCoverImg": "https://www.osaka-soundtrip.com/wp-content/uploads/2021/10/chuokokaido_7.jpg",
+      "markers":[{
+        "name": "Osaka Gas Iwasakicho Factory-1932",
+        "markLocation":[34.668936, 135.476223],
+        "popupText": "The Iwasakicho Factory was built in 1897 and lasted until the 1995s before becoming the location of the Kyosera Dome.",
+        "popupImg":"https://cdn.mainichi.jp/vol1/2022/10/29/20221029k0000m040263000p/9.jpg?1"
+        },
+        {
+        "name": "Osaka Prefectural Office-1930s",
+        "markLocation":[34.681271, 135.483532],
+        "popupText": "In 1874 the prefectural office was moved from near Osaka castle far to what was then the western edge of the city in the new Nishi ward. Despite the distance from the center of the city, the site was chosen in order to be close to the foreigner settlement just across the river.",
+        "popupImg":"https://ucosaka.com/wp2027/wp-content/uploads/2023/06/enokojima_hall-1024x709.jpg"
+        }
+      ]
+    }
+}

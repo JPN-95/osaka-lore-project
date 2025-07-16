@@ -1,0 +1,263 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.homeTopContainer{
+  background-color: #A52D2D;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-top-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  background-color: #D7B78D;
+}
+
+.contact-content-wrapper{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  background-color: #D7B78D; /* match rest of your site */
+}
+
+.side-image {
+  position: absolute;
+  width: 500px;
+  min-height: 100%;
+  z-index: 2;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+  .side-image {
+    width: 200px;
+  }
+}
+
+.left-img{
+  left: 0;
+  background-image: url("photos/dontonbori.jpg");
+  background-position: left center;
+  mask-image: linear-gradient(to right, black 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black 40%, transparent 100%);
+}
+
+.right-img {
+  right: 0;
+  background-image: url('photos/dontonbori.jpg');
+  background-position: right center;
+  mask-image: linear-gradient(to left, black 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to left, black 40%, transparent 100%);
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D7B78D;
+}
+
+.site-info {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  background-color: #A52D2D;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2, p, label{
+  font-family: "Lato", sans-serif;
+}
+
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 80%;
+  max-width: 1000px;
+  margin-top: 2rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 5rem;
+  background-color: #A97B58;
+  box-shadow: 0 4px 12px #203973;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+
+.row.reverse{
+  direction: rtl;
+  margin-bottom: 2rem;
+}
+
+.row.reverse > * {
+  direction: ltr;
+}
+
+.row p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.row img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header{
+  position: sticky;
+  top: 0; 
+  background-color: #A52D2D;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.footer{
+  position: sticky;
+  background-color: #A52D2D;
+}
+
+.footer footer{
+  position: sticky;
+  margin: auto;
+  padding: .25rem;
+  background-color: #A52D2D;
+}
+
+.map-container {
+  padding: 2rem 2rem;
+  background-color: #D7B78D;
+}
+
+.map-page{
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #D7B78D;
+  z-index: 0;
+}
+
+.map-menu .MuiButtonBase-root {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #fdfdfd;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.map-menu .MuiButtonBase-root:hover{
+  background-color: #e0e0e0;
+}
+
+.slider .MuiSlider-root{
+  position: absolute;
+  top: 250px;
+  right: 28px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+  border-radius: 10px;
+  pointer-events: auto;
+}
+
+.leaflet-container {
+  height: 70vh;
+  margin: auto 50px;
+}
+
+.map-info-container {
+  display: flex;
+  justify-content: center;
+  background-color: #D7B78D;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.content-grid .map-info{
+  padding: 2rem;
+}
+.map, .map-info-container, header, footer {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form{
+  background-color: #A97B58;
+  box-shadow: 0 4px 12px #203973;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+form {
+  margin: 40px auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
