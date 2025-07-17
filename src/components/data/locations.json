@@ -1,7 +1,7 @@
 {
     "Osaka City": {
       "name": "Osaka City",
-      "areaData":"Sample Text",
+      "areaData":"During the turn of the century, Osaka had grown at an incredible rate. By the 1910s the population had more than doubled. The city had expanded the waterways, built new train stations, reclaimed hundreds of acres of land, and built enough factories for western press to dub the city 'The Manchester of the East'.",
       "center":[34.68, 135.5023],
       "zoom": 10,
       "overlayUrl":"/photos/chuo1924.jpg",
@@ -14,7 +14,7 @@
 
     "Fukushima": {
       "name": "Fukushima Ward",
-      "areaData":"Sample Text",
+      "areaData":"The areas to the north and west of central Osaka were mostly rice fields until the rapid modernization of the Meiji period. Fukushima became a manufacturing hub with factories up and down the Aji river. ",
       "center": [34.691585, 135.477888],
       "zoom": 15,
       "overlayUrl":"/photos/fukushima1927.jpg",
@@ -39,8 +39,8 @@
     },
 
     "Chuo":{
-      "name": "Chuo Ward",
-      "areaData":"Sample Text",
+      "name": "Chuo",
+      "areaData":"The central ward is most often symbolized by the imposing Osaka castle, which for hundreds of years had been the center of authority over the city. With the Meiji restoration the castle grounds were turned over to the military to become a munitions depot.",
       "center": [34.683403, 135.514265],
       "zoom": 15,
       "overlayUrl":"/photos/chuo1924.jpg",
@@ -65,7 +65,7 @@
   },
     "Kita": {
       "name":"Kita Ward",
-      "areaData":"Sample Text",
+      "areaData":"While the southern half of Kita ward had always been a bustling area for Osakans, the northern half of modern Kita ward was composed of mostly rice fields at the beginning of the Meiji area. The area saw significant development after the construction of Osaka station in the 1890s which turned Kita ward into a massive commerce hub.",
       "center": [34.692942, 135.493410],
       "zoom": 14,
       "overlayUrl":"/photos/kitaku1924.jpg",
